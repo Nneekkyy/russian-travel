@@ -1,0 +1,23 @@
+.intro__title {
+  margin-top: 5.75rem;
+  margin-bottom: 2.5rem;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.375rem;
+  line-height: 3.625rem;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    margin-top: 5.5rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: 2rem;
+    line-height: 2.1875rem;
+    margin-top: 4rem;
+  }
+}
