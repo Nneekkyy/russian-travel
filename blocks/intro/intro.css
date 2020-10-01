@@ -1,6 +1,9 @@
 .intro {
-  width: 53.90625%;
-  margin-left: 9.25rem;
+  min-width: 288px;
+  max-width: 690px;
+  width: 100%;
+  max-width: calc(100% - 247px*2);
+  margin-left: 100px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -9,18 +12,18 @@
 
 @media screen and (max-width: 1024px) {
   .intro {
-    margin-left: 3rem;
+    max-width: calc(100% - 247px*2);
+    margin-left: 48px;
   }
 }
 @media screen and (max-width: 768px) {
   .intro {
-    width: 93.75%;
-    margin-left: 1.5rem;
+    max-width: calc(100% - 24px*2);
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 425px) {
   .intro {
-    width: 90%;
-    margin-left: 1rem;
+    max-width: calc(100% - 16px*2);
   }
 }
