@@ -3,6 +3,8 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, minmax(min-content, max-content));
   gap: 2.5rem 3rem;
+  margin: 0 auto;
+  padding-bottom: 5rem;
 }
 .place:first-of-type {
   padding-top: 5.75rem;
@@ -20,6 +22,7 @@
   .place {
     grid-template-columns: 340px 352px;
     gap: 3rem 1.75rem ;
+    padding-bottom: 4.5rem;
   }
   .place:first-of-type {
     padding-top: 5.5rem;
@@ -32,7 +35,8 @@
   .place {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, minmax(min-content, max-content));
-    gap: 2rem;
+    row-gap: 2rem;
+    padding-bottom: 3rem;
   }
   .place:first-of-type {
     padding-top: 4rem;

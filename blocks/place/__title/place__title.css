@@ -6,19 +6,20 @@
   line-height: 4.75rem;
   color: #FFFFFF;
   margin: 0;
-  padding-top: 5rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   }
 
   @media screen and (max-width: 768px) {
     .place__title {
-      font-size: 42px;
+      font-size: 2.75rem;
       line-height: 2.875rem;
     }
   }
   @media screen and (max-width: 425px) {
     .place__title {
+      max-width: calc(100% - 16px*2);
+      margin-left: 1rem;
       font-size: 2rem;
       line-height: 2.1875rem;
     }
