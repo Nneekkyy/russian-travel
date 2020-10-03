@@ -8,11 +8,7 @@
     margin-top: 3.5rem;
   }
 }
-@media screen and (max-width: 768px) {
-  .lead__image {
-    margin-top: 3.5rem;
-  }
-}
+
 @media screen and (max-width: 425px) {
   .lead__image {
     margin-top: 2.5rem;

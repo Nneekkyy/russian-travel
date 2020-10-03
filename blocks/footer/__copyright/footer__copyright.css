@@ -5,11 +5,11 @@
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1rem;
-  text-align: right;
   color: #FFFFFF;
 }
 @media screen and (max-width: 425px) {
   .footer__copyright {
+    padding-left: 0;
     font-size: 0.875rem;
     line-height: 0.875rem;
   }

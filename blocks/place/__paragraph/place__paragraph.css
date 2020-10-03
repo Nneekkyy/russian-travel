@@ -15,11 +15,15 @@
     line-height: 1.625rem;
   }
 }
-
+@media screen and (max-width: 675px) {
+  .place__paragraph {
+    max-width: calc(100% - 18px*2);
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 @media screen and (max-width: 425px) {
   .place__paragraph {
     max-width: calc(100% - 16px*2);
-    width: 100%;
-    margin: 0 auto;
   }
 }

@@ -10,6 +10,7 @@
   color: #FFFFFF;
   margin: 0;
   z-index: 2;
+  margin-bottom: 245px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -26,11 +27,19 @@
     margin-bottom: 115px;
   }
 }
+@media screen and (max-width: 525px) {
+  .cover__subtitle {
+    max-width: calc(100% - 16px*2);
+    margin-bottom: 33px;
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+}
 @media screen and (max-width: 425px) {
   .cover__subtitle {
     max-width: calc(100% - 16px*2);
     margin-bottom: 33px;
     font-size: 0.875rem;
-    line-height: 1rem;
+
   }
 }

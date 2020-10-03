@@ -1,7 +1,6 @@
 .intro__list {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
-  font-weight: 700;
   font-size: 0.75rem;
   line-height: 1.125rem;
   color: #FFFFFF;
@@ -13,11 +12,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .intro__list {
-    max-width: calc(100% - 24px*2);
-  }
-}
-@media screen and (max-width: 425px) {
   .intro__list {
     max-width: 100%;
   }
