@@ -10,6 +10,8 @@
   color: #FFFFFF;
   margin: 0;
   padding-top: 2rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 @media screen and (max-width: 1024px) {
   .lead__subtitle {

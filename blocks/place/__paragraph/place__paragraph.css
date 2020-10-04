@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 1.125rem;
-  line-height: 1.8125rem;
+  line-height: 163%;
   color: #FFFFFF;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,7 +12,6 @@
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 1rem;
-    line-height: 1.625rem;
   }
 }
 @media screen and (max-width: 675px) {
@@ -24,6 +23,7 @@
 }
 @media screen and (max-width: 425px) {
   .place__paragraph {
+    margin: 0 auto;
     max-width: calc(100% - 16px*2);
   }
 }

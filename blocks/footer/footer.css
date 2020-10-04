@@ -1,11 +1,15 @@
 .footer {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   margin: 0 auto;
   margin-top: 5.75rem;
-  padding-bottom: 1.5rem;
+}
+@media screen and (max-width: 1278px) {
+  .footer {
+    width: calc(100% - 2*60px);
+  }
 }
 @media screen and (max-width: 1024px) {
   .footer {
@@ -31,7 +35,6 @@
 }
 @media screen and (max-width: 425px) {
   .footer {
-    width: calc(100% - 2*67px);
     margin-left: 1rem;
   }
 }

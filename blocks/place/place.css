@@ -27,11 +27,11 @@
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: 47.22% 48.89%;
-    gap: 3rem 1.75rem;
+    gap: 48px 28px;
     padding-bottom: 4.5rem;
   }
   .place:first-of-type {
-    padding-top: 5.5rem;
+    padding-top: 88px;
   }
   .place:last-of-type {
     padding-bottom: 5.5rem;
@@ -51,15 +51,7 @@
 }
 @media screen and (max-width: 425px) {
   .place {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, minmax(min-content, max-content));
     row-gap: 2rem;
     padding-bottom: 3rem;
-  }
-  .place:first-of-type {
-    padding-top: 4rem;
-  }
-  .place:last-of-type {
-    padding-bottom: 4rem;
   }
 }

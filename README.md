@@ -10,3 +10,6 @@
 - background градиентов(css функции)
 - дизайн формы обратной связи(input, placeholder)
 - поддержки кроссбраузерности(вендорные префиксы)
+
+#### Ссылка на Github Pages
+https://barrrsss.github.io/russian-travel/
