@@ -2,13 +2,17 @@
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.5rem;
-  line-height: 1.75rem;
+  font-size: 24px;
+  line-height: 28px;
   color: #FFFFFF;
   text-align: right;
-  padding-left: 0;
+
+  text-decoration: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.header__lang-link:last-of-type {
+  padding-left: 18px;
 }
 
 .header__lang-link:hover {
@@ -18,7 +22,7 @@
 
 @media screen and (max-width: 425px) {
   .header__lang-link {
-    font-size: 1.125rem;
-    line-height: 1.25rem;
+    font-size: 18px;
+    line-height: 20px;
   }
 }

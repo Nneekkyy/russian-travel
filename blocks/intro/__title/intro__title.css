@@ -3,23 +3,23 @@
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
-  margin-top: 5.75rem;
-  margin-bottom: 2.5rem;
-  font-size: 3.375rem;
-  line-height: 3.625rem;
+  margin-top: 92px;
+  margin-bottom: 40px;
+  font-size: 54px;
+  line-height: 58px;
   color: #FFFFFF;
 }
 
 @media screen and (max-width: 768px) {
   .intro__title {
     width: 100%;
-    margin-top: 5.5rem;
+    margin-top: 88px;
   }
 }
 @media screen and (max-width: 425px) {
   .intro__title {
-    font-size: 2rem;
-    line-height: 2.1875rem;
-    margin-top: 4rem;
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 64px;
   }
 }

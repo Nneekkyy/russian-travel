@@ -4,11 +4,11 @@
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 4.5rem;
-  line-height: 4.75rem;
+  font-size: 72px;
+  line-height: 76px;
   text-align: center;
   color: #FFFFFF;
-  padding-bottom: 2rem;
+  padding-bottom: 32px;
   z-index: 2;
   margin-top: 245px;
   margin-bottom: 0px;
@@ -16,31 +16,31 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1224px) {
   .cover__title {
     max-width: calc(100% - 232px*2);
     margin-top: 195px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1020px) {
   .cover__title {
     max-width: calc(100% - 104px*2);
     margin-top: 115px;
   }
 }
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 740px) {
   .cover__title {
     max-width: calc(100% - 16px*2);
     margin-top: 33px;
-    font-size: 3.5rem;
-    line-height: 3.1875rem;
-    padding-bottom: 1.5rem;
+    font-size: 56px;
+    line-height: 58px;
+    padding-bottom: 24px;
   }
 }
 @media screen and (max-width: 425px) {
   .cover__title {
-    font-size: 2rem;
-    line-height: 2.1875rem;
-    padding-bottom: 1rem;
+    font-size: 32px;
+    line-height: 35px;
+    padding-bottom: 16px;
   }
 }

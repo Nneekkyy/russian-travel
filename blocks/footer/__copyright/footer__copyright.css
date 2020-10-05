@@ -3,15 +3,15 @@
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1rem;
+  font-size: 14px;
+  line-height: 16px;
   color: #FFFFFF;
   margin-bottom: 24px;
 }
 @media screen and (max-width: 425px) {
   .footer__copyright {
     padding-left: 0;
-    font-size: 0.875rem;
-    line-height: 0.875rem;
+    font-size: 14px;
+    line-height: 14px;
   }
 }

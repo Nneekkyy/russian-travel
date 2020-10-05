@@ -2,17 +2,17 @@
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 0.75rem;
-  line-height: 1.25rem;
+  font-size: 12px;
+  line-height: 20px;
   letter-spacing: 0.2em;
   color: #AAAAAA;
   margin: 0;
-  padding-bottom: 0.75rem;
+  padding-bottom: 12px;
   text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
   .place__website-url-heading {
-    line-height: 0.75rem;
+    line-height: 12px;
   }
 }

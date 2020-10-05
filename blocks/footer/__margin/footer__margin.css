@@ -1,6 +1,6 @@
 .footer__margin {
-  margin-bottom: 1.5rem;
-  margin-right: 1.125rem;
+  margin-bottom: 24px;
+  margin-right: 18px;
 }
 .footer__margin:last-of-type {
   margin-right: 0px;
@@ -8,9 +8,9 @@
 
 @media screen and (max-width: 425px) {
   .footer__margin {
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
   }
   .footer__margin:last-of-type {
-    margin-bottom: 3rem;
+    margin-bottom: 48px;
   }
 }

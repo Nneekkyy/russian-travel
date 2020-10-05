@@ -1,6 +1,6 @@
 .place__paragraph-margin {
   margin-top: 0;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
 .place__paragraph-margin:last-of-type {
   margin-bottom: 0;
