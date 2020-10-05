@@ -1,4 +1,4 @@
-.header__lang-link_font {
+.header__lang-link {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -11,15 +11,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.header__lang-link_font:hover {
+.header__lang-link:hover {
   transition: all 2s ease;
   opacity: 0.8;
 }
 
 @media screen and (max-width: 425px) {
-  .header__lang-link_font {
+  .header__lang-link {
     font-size: 1.125rem;
     line-height: 1.25rem;
   }
 }
-
