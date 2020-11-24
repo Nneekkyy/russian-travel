@@ -1,8 +1,13 @@
 .comment {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
   width: 382px;
   margin-left: 0;
+  margin-right: 19px;
+}
+
+.comment:last-child {
+  margin-right: 0px;
 }
