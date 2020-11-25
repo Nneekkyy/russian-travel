@@ -1,8 +1,9 @@
 .video__icon-play {
   position: absolute;
+  z-index: 2;
   left: 30px;
   top: 30px;
 }
 .video__icon-play:hover {
-  opacity: 0; 
+  opacity: 0;
 }
