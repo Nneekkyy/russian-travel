@@ -1,33 +1,8 @@
 .video__background {
-
+  width: 100%;
   background-size: 100% auto;
   border-radius: 10px;
   z-index: -1;
   position: absolute;
   opacity: 0.5;
-}
-@media screen and (max-width: 1260px) {
-  .video__background {
-    width: 560px;
-  }
-}
-@media screen and (max-width: 1110px) {
-  .video__background {
-    width: 500px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .video__background {
-    width: 456px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .video__background {
-    width: 352px;
-  }
-}
-@media screen and (max-width: 425px) {
-  .video__background {
-    width: 343px;
-  }
 }

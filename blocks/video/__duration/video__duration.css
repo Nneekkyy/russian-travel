@@ -10,3 +10,18 @@
   color: #FFFFFF;
   margin-bottom: 0;
 }
+@media screen and (max-width: 1290px) {
+  .video__duration {
+      margin-top: 145px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .video__duration {
+      margin-top: 95px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .video__duration {
+      margin-top: 85px;
+  }
+}

@@ -1,5 +1,4 @@
 .videos {
-  width: 1184px;
   margin: 0 auto;
 }
 @media screen and (max-width: 1260px) {
@@ -10,6 +9,11 @@
 @media screen and (max-width: 1024px) {
   .videos {
     max-width: calc(100% - 48px*2);
+  }
+}
+@media screen and (max-width: 840px) {
+  .videos {
+    max-width: calc(100% - 12px*2);
   }
 }
 @media screen and (max-width: 768px) {

@@ -8,26 +8,34 @@
 }
 @media screen and (max-width: 1260px) {
   .video__item {
-    width: 560px;
+    width: 530px;
   }
 }
 @media screen and (max-width: 1190px) {
   .video__item {
-    width: 480px;
+    width: 455px;
   }
 }
 @media screen and (max-width: 1024px) {
   .video__item {
-    width: 456px;
+    width: 420px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .video__item {
+    width: 360px;
+    margin-right: 16px;
   }
 }
 @media screen and (max-width: 768px) {
   .video__item {
     width: 352px;
+    margin-right: 10px;
   }
 }
 @media screen and (max-width: 425px) {
   .video__item {
     width: 343px;
+    margin-right: 0px;
   }
 }
