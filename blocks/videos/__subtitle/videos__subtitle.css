@@ -10,14 +10,24 @@
   margin: 0 auto;
   margin-top: 48px;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1024px) {
   .videos__subtitle {
     font-size: 24px;
     line-height: 35px;
+    width: calc(100% - 2*192px);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .videos__subtitle {
+    width: calc(100% - 2*64px);
+  }
+}
+
 @media screen and (max-width: 425px) {
   .videos__subtitle {
+    width: calc(100% - 2*16px);
     font-size: 16px;
     line-height: 23px;
   }
