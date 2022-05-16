@@ -5,7 +5,7 @@
 Данный сайт является проектной работой, выполняемой в ходе обучения в Яндекс.Практикуме, по созданию адаптивного сайта с применением технологий html и css.
 
 #### Ссылка на Github Pages
-https://barrrsss.github.io/russian-travel/
+https://nneekkyy.github.io/russian-travel/
 
 ### Функционал
 
